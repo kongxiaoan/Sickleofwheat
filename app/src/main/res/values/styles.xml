@@ -11,4 +11,10 @@
 <!--        <item name="android:forceDarkAllowed">false</item>-->
     </style>
 
+    <style name="app_commonTheme.Splash">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/layout_splash</item>
+    </style>
 </resources>
