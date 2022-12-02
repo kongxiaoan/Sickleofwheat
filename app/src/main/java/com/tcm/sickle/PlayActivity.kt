@@ -5,10 +5,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.gyf.immersionbar.ktx.immersionBar
+import com.tcm.sickle.base.BaseActivity
 import com.tcm.sickle.data.TiktokBean
 import com.tcm.sickle.ui.play.PlayFragment
 
-class PlayActivity : AppCompatActivity() {
+class PlayActivity : BaseActivity() {
 
     companion object {
         const val PLAY_DATA_KEY = "play_data_key"

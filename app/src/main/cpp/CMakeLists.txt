@@ -15,17 +15,18 @@ project("sickle")
 
 #找到包含所有的cpp文件
 file(GLOB allCpp *.cpp)
-
+#项目位置路径
+set(project_path /Users/mtkj/project/kpa/android/)
 ##打印当前 cmakeLists 的路径
 #message("当前cmakel路径: ${CMAKE_SOURCE_DIR} \n cpu架构    当前：${ANDROID_ABI}")
 #
-set(ffmpeg_lib_dir /Users/kpa/project/video/Sickleofwheat/app/src/main/lib/${CMAKE_ANDROID_ARCH_ABI})
+set(ffmpeg_lib_dir ${project_path}Sickleofwheat/app/src/main/lib/${CMAKE_ANDROID_ARCH_ABI})
 
 #message(allCpp = ${allCpp})
 message(ffmpeg_lib_dir = ${ffmpeg_lib_dir})
 
 # 引入FFmpeg的头文件
-include_directories(/Users/kpa/project/video/Sickleofwheat/app/src/main/lib/${CMAKE_ANDROID_ARCH_ABI}/include)
+include_directories(${project_path}Sickleofwheat/app/src/main/lib/${CMAKE_ANDROID_ARCH_ABI}/include)
 
 
 # 引入FFmpeg的库文件，设置内部的方式引入，指定库的目录是 -L  指定具体的库-l

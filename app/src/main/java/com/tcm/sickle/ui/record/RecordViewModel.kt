@@ -1,4 +1,4 @@
-package com.tcm.sickle.ui.main
+package com.tcm.sickle.ui.record
 
 import androidx.lifecycle.ViewModel
 

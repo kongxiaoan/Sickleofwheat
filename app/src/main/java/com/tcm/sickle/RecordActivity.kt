@@ -1,19 +1,13 @@
 package com.tcm.sickle
 
-import android.Manifest
 import android.content.Context
 import android.content.Intent
-import android.content.pm.PackageManager
-import android.os.Build
 import android.os.Bundle
-import androidx.annotation.NonNull
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import com.gyf.immersionbar.ktx.immersionBar
-import com.tcm.sickle.ui.main.RecordFragment
+import com.tcm.sickle.base.BaseActivity
+import com.tcm.sickle.ui.record.RecordFragment
 
-class RecordActivity : AppCompatActivity() {
+class RecordActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
