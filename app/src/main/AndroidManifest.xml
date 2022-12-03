@@ -28,7 +28,6 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:theme="@style/app_commonTheme.Splash"
             >
             <meta-data
                 android:name="android.app.lib_name"

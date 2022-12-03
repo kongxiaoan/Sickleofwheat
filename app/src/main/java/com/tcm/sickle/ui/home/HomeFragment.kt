@@ -32,16 +32,16 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        binding.homeRV.run {
-            layoutManager = GridLayoutManager(requireContext(), 2)
-            adapter = mAdapter
-        }
-
-        homeViewModel.ticktokData.observe(viewLifecycleOwner) {
-            mList.clear()
-            mList.addAll(it)
-            mAdapter.notifyDataSetChanged()
-        }
+//        binding.homeRV.run {
+//            layoutManager = GridLayoutManager(requireContext(), 2)
+//            adapter = mAdapter
+//        }
+//
+//        homeViewModel.ticktokData.observe(viewLifecycleOwner) {
+//            mList.clear()
+//            mList.addAll(it)
+//            mAdapter.notifyDataSetChanged()
+//        }
 
         return root
     }

@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import com.bumptech.glide.Glide
 import com.bumptech.glide.GlideBuilder
+import com.tcm.sickle.base.ActivityLifecycleCallbackImpl
 
 /**
  * Create by kpa(billkp@yeah.net) on 2022/11/27
@@ -20,5 +21,6 @@ class SFApplication: Application() {
         super.onCreate()
         context = this
         Glide.init(this, GlideBuilder())
+        registerActivityLifecycleCallbacks(ActivityLifecycleCallbackImpl())
     }
 }

@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">麦客</string>
+    <string name="app_name">学生考勤</string>
     <string name="main_tab_home">首页</string>
     <string name="title_activity_home_avtivity">HomeAvtivity</string>
     <string name="title_home">首页</string>
-    <string name="title_record">录制</string>
+    <string name="title_record"></string>
     <string name="title_mine">我的</string>
     <string name="play">播放</string>
     <string name="record_video">录制视频</string>

@@ -17,10 +17,10 @@ class SplashActivity : BaseActivity() {
         }
         setContentView(R.layout.activity_splash)
 
-        launch {
-            delay(5 * 1000)
-            HomeActivity.start(this@SplashActivity)
-            finish()
-        }
+//        launch {
+//            delay(5 * 1000)
+//            HomeActivity.start(this@SplashActivity)
+//            finish()
+//        }
     }
 }

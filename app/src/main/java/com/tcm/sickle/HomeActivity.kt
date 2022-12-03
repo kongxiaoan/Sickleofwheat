@@ -20,17 +20,17 @@ class HomeActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         immersionBar {
-            statusBarColor(R.color.transparent)
+            statusBarColor(R.color.black_90)
             statusBarDarkFont(true)
         }
         binding = ActivityHomeAvtivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val navView: BottomNavigationView = binding.navView
-
-        val navController = findNavController(R.id.nav_host_fragment_activity_home_avtivity)
-
-        navView.setupWithNavController(navController)
+//        val navView: BottomNavigationView = binding.navView
+//
+//        val navController = findNavController(R.id.nav_host_fragment_activity_home_avtivity)
+//
+//        navView.setupWithNavController(navController)
     }
 
     companion object {
